@@ -1,0 +1,49 @@
+nfile 2
+l1 2
+m1 1
+l2 2
+m2 1
+inputfilename dz2.xsf
+inputfileformat xsf
+inputfilename2 dz2.xsf
+inputfileformat2 xsf
+threshold 0.99
+threshold_power 1
+coulomb_power 1
+uc true
+uco
+0.0 0.0 0.0
+ucv
+1.0 0.0 0.0
+0.0 1.0 0.0
+0.0 0.0 1.0
+ucu latvec
+sc F
+sco
+-0.5 -0.5 -0.5
+scv
+3.0 0.0 0.0
+0.0 3.0 0.0
+0.0 0.0 3.0
+scu latvec
+renormalize T
+threshold2 0.99
+threshold_power2 1
+coulomb_power2 1
+uc2 T
+uco2
+0.0 0.0 0.0
+ucv2
+1.0 0.0 0.0
+0.0 1.0 0.0
+0.0 0.0 1.0
+ucu2 latvec
+sc2 F
+sco2
+-0.5 -0.5 -0.5
+scv2
+3.0 0.0 0.0
+0.0 3.0 0.0
+0.0 0.0 3.0
+scu2 latvec
+renormalize2 T
